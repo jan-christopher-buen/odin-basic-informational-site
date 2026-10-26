@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Basic Informational Site</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+        color: #1f2937;
+        background: #f8fafc;
+      }
+      body {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #cbd5e1;
+      }
+      a {
+        color: #174ea6;
+      }
+      a[aria-current='page'] {
+        font-weight: 700;
+      }
+      a:focus-visible {
+        outline: 3px solid #174ea6;
+        outline-offset: 4px;
+        border-radius: 2px;
+      }
+      main {
+        padding-top: 1rem;
+      }
+      h1 {
+        line-height: 1.2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact-me">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Basic Informational Site</h1>
+      <p>A small website for learning how Node.js serves HTML pages.</p>
+      <p>Explore the about and contact pages using the navigation above.</p>
+    </main>
+  </body>
+</html>
